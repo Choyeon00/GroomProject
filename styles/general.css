@@ -1,0 +1,74 @@
+html {
+    background-color: black;
+}
+
+.main__background {
+    display: flex;
+    position: relative;
+}
+/* 사진을 꽉 차게 넣어도 여백이 생김 */
+.main__background img {
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+/* 타이틀이 릴레이티브에 붙긴 했는데 작아지지가 않음 */
+/* ->> 픽셀에서 퍼센트, 뷰포트로 변경 */
+.main__background-title {
+    position: absolute;
+    left: 50px;
+    top: 10vw;
+    width: 35%;
+    color: white;
+    font-size: 1.2vw;
+    
+}
+/* 버튼 안의 요소들이 가운데 정렬이 안됨 */
+/* ->>저스티파이 셀프였음 ;; 탭 주의*/
+.main__background-title-buttons {
+    display: flex;
+    gap: 20px;
+    width: 70%;
+    padding: 0 px;
+}
+
+.main__background-title-detail,
+.main__background-title-play {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5vw;
+    border: none;
+    border-radius: 5px;
+    padding: 0.3rem;
+    gap: 10px;
+    cursor: pointer;
+
+}
+.main__background-title-play {
+    background-color: white;
+    color: black;
+
+}
+.main__background-title-play:hover {
+    background-color: rgb(182, 178, 178);
+}
+.main__background-title-play img {
+    width: 30%;
+}
+
+.main__background-title-detail {
+    background-color: gray;
+    color: white;
+
+}
+.main__background-title-detail:hover {
+    opacity: 0.5;
+}
+.main__background-title-detail img {
+    width: 30%;
+}
+
+
