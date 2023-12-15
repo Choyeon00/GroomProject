@@ -6,15 +6,9 @@
 .section__list h2 {
     color: white;
     font-size: 1.5vw;
-    z-index: 3;
     position: relative;
 }
-.section__list-first {
-    display: grid;
-    grid-template-columns: repeat(5, 19.1vw);
-    column-gap: 2px;
-    margin-bottom: 3vw;
-}
+.section__list-first,
 .section__list-second {
     display: grid;
     grid-template-columns: repeat(5, 19.1vw);
@@ -40,6 +34,7 @@
 .section__list-first img:hover,
 .section__list-second img:hover {
     transform: scale(1.5);
+    z-index: 2;
 }
 
 

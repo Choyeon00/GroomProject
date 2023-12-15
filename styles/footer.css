@@ -1,6 +1,37 @@
+.footer__sns-links {
+    background-color: transparent;
+    filter: invert(100%);
+    margin-left: 15vw;
+    margin-bottom: 2vw;
+    display: flex;
+    gap: 3vw;
+}
+
+.footer__sns-links img {
+    width: 2.5vw;
+    height: auto;
+}
+
+.footer__other-links {
+    margin-left: 15vw;
+    margin-bottom: 2vw;
+    font-size: 1.2vw;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 80vw;
+}
+
+.footer__other-links a {
+    color: gray;
+    text-decoration: none;
+    flex: 0 0 20%;
+
+}
+
 .copy-text {
     color: gray;
-    font-size: 0.8rem;
-    line-height: 2;
+    font-size: 1vw;
+    line-height: 1.7;
     margin-left: 15vw;
 }
