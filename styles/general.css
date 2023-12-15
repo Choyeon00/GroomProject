@@ -2,11 +2,19 @@ html {
     background-color: black;
 }
 
+html,
+body {
+    width: 100vw;
+    height: 100vw;
+    margin: 0;
+}
+
 .main__background {
     display: flex;
     position: relative;
 }
 /* 사진을 꽉 차게 넣어도 여백이 생김 */
+/* ->> 바디 기본마진 뭐임? 이거 없애면서 해결 */
 .main__background img {
     width: 100%;
     height: auto;
@@ -18,7 +26,7 @@ html {
 /* ->> 픽셀에서 퍼센트, 뷰포트로 변경 */
 .main__background-title {
     position: absolute;
-    left: 50px;
+    left: 2vw;
     top: 10vw;
     width: 35%;
     color: white;

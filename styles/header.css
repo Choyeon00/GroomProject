@@ -114,7 +114,7 @@
 }
 .otherinfo {
     position: absolute;
-    background-color: gray;
+    background-color: rgb(54, 51, 51);
     width: 150px;
     height: 310px;
     padding: 10px 10px;

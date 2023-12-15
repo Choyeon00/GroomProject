@@ -1,37 +1,46 @@
 .section__list {
     position: absolute;
     top: 45vw;
-    padding: 0px 20px;
+    left: 2vw;
 }
 
 .section__list h2 {
     color: white;
-    font-size: 3vw;
+    font-size: 1.5vw;
 }
 .section__list-first {
     display: grid;
-    grid-template-columns: repeat(10, 1fr);
+    grid-template-columns: repeat(5, 19.1vw);
     column-gap: 2px;
     position: relative;
-    margin-bottom: 100px;
+    margin-bottom: 3vw;
 }
-
-.section__list-first img {
+.section__list-second {
+    display: grid;
+    grid-template-columns: repeat(5, 19.1vw);
+    column-gap: 2px;
+    position: relative;
+    margin-bottom: 3vw;
+}
+.section__list-first img,
+.section__list-second img {
     width: 100%;
     transition: transform 0.2s;
 }
-
-.section__list-first img:first-child {
+.section__list-first img:first-child,
+.section__list-second img:first-child {
     transition: transform 0.2s;
     transform-origin: -0% center;
 }
-.section__list-first img:last-child {
+.section__list-first img:last-child,
+.section__list-second img:last-child {
     transition: transform 0.2s;
     transform-origin: 100% center;
 }
-
-.section__list-first img:hover {
+.section__list-first img:hover,
+.section__list-second img:hover {
     transform: scale(1.5);
 }
+
 
 
